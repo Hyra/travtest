@@ -1,8 +1,13 @@
 {
   "name": "travtest",
   "version": "0.0.1",
+  "scripts" : {
+    "test": "mocha tests"
+  },
   "dependencies": {
-    "express": "~3.3.4"
+    "chai": "^3.3.0",
+    "express": "~3.3.4",
+    "mocha": "^2.3.3"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
